@@ -1,0 +1,13 @@
+<web-app>
+    <display-name>線上投票</display-name>
+
+    <servlet>
+        <servlet-name>VoteServlet</servlet-name>
+        <servlet-class>com.vote.VoteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>VoteServlet</servlet-name>
+        <url-pattern>/vote</url-pattern>
+    </servlet-mapping>
+</web-app>
